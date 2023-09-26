@@ -24,5 +24,6 @@ server:
 
 security:
   jwt:
+    cookieName: homecode
     secret: ======================HomeCode===========================
     expirationMs: 86400000
